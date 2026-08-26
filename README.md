@@ -1,65 +1,64 @@
-# 🍔 Cardápio Digital & Sistema de Pedidos via WhatsApp
+<div align="center">
+  <img src="./assets/logo%20burguer.png" alt="Hot Burguer Logo" width="120" style="border-radius: 50%;">
+  <h1>🔥 Hot Burguer — Cardápio Digital & Delivery</h1>
+  <p><b>O hambúrguer mais quente da cidade!</b></p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
-
-> Aplicação web interativa desenvolvida para otimizar o atendimento de estabelecimentos alimentícios (restaurantes, lanchonetes e hamburguerias), permitindo a navegação por produtos, gerenciamento de carrinho e checkout automatizado via WhatsApp.
-
----
-
-## 🔗 Demonstração & Acesso
-
-- **Repositório oficial**: [Cardapio_Digital no GitHub](https://github.com/LennonRsantos/Cardapio_Digital)
-- **Deploy / Site Online**: [Acessar Cardápio Digital](https://lennonrsantos.github.io/Cardapio_Digital/) *(Ajuste o link se publicado no GitHub Pages)*
+  <p>
+    <a href="#-sobre-o-projeto">Sobre</a> •
+    <a href="#-funcionalidades">Funcionalidades</a> •
+    <a href="#-tecnologias-utilizadas">Tecnologias</a> •
+    <a href="#-como-executar-o-projeto">Como Executar</a> •
+    <a href="#-autor">Autor</a>
+  </p>
+</div>
 
 ---
 
-## 🚀 Funcionalidades Principais
+## 🧐 Sobre o Projeto
 
-- **📂 Cardápio Categorizado & Dinâmico**:
-  - Filtros rápidos por categorias de produtos (Hambúrgueres, Pizzas, Bebidas, Sobremesas, etc.).
-  - Renderização dinâmica com suporte a paginação ("Ver mais").
-- **🛒 Carrinho de Compras Interativo**:
-  - Adição, remoção e ajuste de quantidade de itens em tempo real.
-  - Cálculo automático de subtotal, taxa de entrega e valor total do pedido.
-  - Modal de checkout guiada em 3 etapas (Revisão de Itens ➔ Endereço ➔ Resumo).
-- **📍 Busca Automática de Endereço (API ViaCEP)**:
-  - Preenchimento automático de rua, bairro, cidade e estado ao digitar o CEP.
-- **📲 Envio de Pedido via WhatsApp**:
-  - Formatação e estruturação automática do pedido e dados de entrega em texto codificado para envio em um clique.
-- **📱 Layout Responsivo & UX Aprimorada**:
-  - Interface adaptada para smartphones, tablets e desktops.
-  - Animações suaves de rolagem e feedback visual ao adicionar itens.
+O **Hot Burguer** é um sistema de **cardápio digital interativo** desenvolvido para facilitar o autoatendimento e agilizar o processo de pedidos em hamburguerias e lanchonetes.
+
+Através de uma interface moderna e intuitiva, os clientes podem navegar pelos produtos (hambúrgueres, combos e bebidas), adicionar itens ao carrinho, informar o endereço de entrega e **finalizar o pedido enviando a mensagem formatada diretamente para o WhatsApp do estabelecimento**.
+
+---
+
+## ✨ Funcionalidades
+
+- [x] **Visualização do Menu:** Cardápio organizado por categorias (Hambúrgueres, Combos e Bebidas).
+- [x] **Gerenciamento do Carrinho:**
+  - Adição e remoção de itens dinamicamente.
+  - Cálculo automático do valor total em Reais (R$).
+  - Contador de itens em tempo real no rodapé.
+- [x] **Validação de Horário de Funcionamento:**
+  - Badge visual no cabeçalho indicando o horário (Seg à Dom - 18:00 às 23:00).
+  - Bloqueio e notificação via Toast quando o estabelecimento estiver fechado.
+- [x] **Integração com WhatsApp:**
+  - Envio automático dos itens, quantidades, valores e endereço de entrega pré-formatados no WhatsApp do restaurante.
+- [x] **Notificações em Tempo Real:** Feedback ao usuário utilizando a biblioteca Toastify.js.
+- [x] **Design Responsivo:** Adaptado para dispositivos móveis, tablets e desktops com Tailwind CSS.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5 & CSS3**: Estruturação semântica da aplicação e estilização customizada.
-- **JavaScript (ES6+) & jQuery**: Manipulação de estado do carrinho, controle de eventos do DOM e consumo de APIs.
-- **Bootstrap**: Grid responsivo, componentes modais e estilização de formulários.
-- **ViaCEP API**: Integração via requisição HTTP para busca de endereços por CEP.
-- **WhatsApp Web API**: Comunicação direta para envio dos dados do pedido formatado.
+- **HTML5:** Estruturação semântica da aplicação.
+- **CSS3 / Tailwind CSS:** Estilização utilitária, responsiva e moderna.
+- **JavaScript (ES6+):** Manipulação da DOM, regras de negócio do carrinho e integração do WhatsApp.
+- **Toastify JS:** Exibição de alertas e notificações customizadas.
+- **Font Awesome:** Ícones interativos.
+- **Google Fonts (Roboto):** Tipografia oficial.
 
 ---
 
-## 📂 Estrutura de Arquivos
+## 📁 Estrutura de Arquivos
 
 ```text
-Cardapio_Digital/
-├── css/
-│   ├── bootstrap.min.css
-│   ├── fontawesome.css
-│   ├── animate.css
-│   └── main.css
-├── js/
-│   ├── jquery-1.12.4.min.js
-│   ├── bootstrap.min.js
-│   ├── dados.js       # Objeto de dados contendo os itens do cardápio
-│   └── app.js         # Lógica da aplicação, carrinho e rotinas de checkout
-├── img/               # Imagens dos produtos, ícones e assets visuais
-└── index.html         # Página principal da aplicação
+.
+├── assets/             # Imagens dos produtos, logo e background
+├── styles/
+│   ├── style.css       # Configurações do Tailwind / Estilos customizados
+│   └── output.css      # CSS compilado pelo Tailwind CLI
+├── index.html          # Estrutura principal da página
+├── script.js           # Lógica do carrinho, validações e integração WhatsApp
+├── tailwind.config.js  # Configurações de tema do Tailwind CSS
+└── package.json        # Dependências e scripts de desenvolvimento
