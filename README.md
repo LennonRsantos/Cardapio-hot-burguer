@@ -2,14 +2,6 @@
   <img src="./assets/logo%20burguer.png" alt="Hot Burguer Logo" width="120" style="border-radius: 50%;">
   <h1>🔥 Hot Burguer — Cardápio Digital & Delivery</h1>
   <p><b>O hambúrguer mais quente da cidade!</b></p>
-
-  <p>
-    <a href="#-sobre-o-projeto">Sobre</a> •
-    <a href="#-funcionalidades">Funcionalidades</a> •
-    <a href="#-tecnologias-utilizadas">Tecnologias</a> •
-    <a href="#-como-executar-o-projeto">Como Executar</a> •
-    <a href="#-autor">Autor</a>
-  </p>
 </div>
 
 ---
