@@ -2,7 +2,7 @@
   <img src="./assets/logo%20burguer.png" alt="Hot Burguer Logo" width="120" style="border-radius: 50%;">
   <h1>🔥 Hot Burguer — Cardápio Digital & Delivery</h1>
 </div>
-## 🧐 Sobre o Projeto
+## Sobre o Projeto
 
 O **Hot Burguer** é um sistema de **cardápio digital interativo** desenvolvido para facilitar o autoatendimento e agilizar o processo de pedidos em hamburguerias e lanchonetes.
 
@@ -10,7 +10,7 @@ Através de uma interface moderna e intuitiva, os clientes podem navegar pelos p
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - [x] **Visualização do Menu:** Cardápio organizado por categorias (Hambúrgueres, Combos e Bebidas).
 - [x] **Gerenciamento do Carrinho:**
@@ -27,7 +27,7 @@ Através de uma interface moderna e intuitiva, os clientes podem navegar pelos p
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica da aplicação.
 - **CSS3 / Tailwind CSS:** Estilização utilitária, responsiva e moderna.
