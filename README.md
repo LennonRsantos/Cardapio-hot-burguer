@@ -1,11 +1,7 @@
 <div align="center">
   <img src="./assets/logo%20burguer.png" alt="Hot Burguer Logo" width="120" style="border-radius: 50%;">
   <h1>🔥 Hot Burguer — Cardápio Digital & Delivery</h1>
-  <p><b>O hambúrguer mais quente da cidade!</b></p>
 </div>
-
----
-
 ## 🧐 Sobre o Projeto
 
 O **Hot Burguer** é um sistema de **cardápio digital interativo** desenvolvido para facilitar o autoatendimento e agilizar o processo de pedidos em hamburguerias e lanchonetes.
